@@ -59,5 +59,4 @@ def detpara():
         return render_template("grade.html", grade=gr)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
