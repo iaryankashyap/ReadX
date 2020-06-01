@@ -1,10 +1,11 @@
 * {
-  font-family: Century Gothic;
-  background-color: black;
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(19, 17, 17);
 }
 
 h3 {
   color: crimson;
+  font-family: Century Gothic;
   text-align: center;
   font-size: 50px;
   padding: 5px;
@@ -71,6 +72,7 @@ h2 {
 }
 
 button {
+  font-family: Century Gothic;
   color: white;
   border: 1px solid white;
   align-items: center;
@@ -113,4 +115,8 @@ button:focus {
 .mode {
   text-align: center;
   margin-top: 10px;
+}
+
+.link {
+  color: aqua;
 }
