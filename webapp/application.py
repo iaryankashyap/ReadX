@@ -37,10 +37,10 @@ def grade(text):
 
     # Finally outputs the result to the user
     if (index < 1):
-        return "Before Grade 1"
+        return "Before 1"
 
     elif (index >= 16):
-        return "Grade 16+"
+        return "16+"
 
     else:
         return index
@@ -51,6 +51,11 @@ def home():
     return render_template("home.html")
 
 
+@app.route("/home-dark")
+def homedark():
+    return render_template("home-dark.html")
+
+
 @app.route("/para_details", methods=["GET", "POST"])
 def detpara():
     if request.method == "POST":
@@ -59,4 +64,9 @@ def detpara():
         return render_template("grade.html", grade=gr)
 
 
-
+@app.route("/para_details-dark", methods=["GET", "POST"])
+def detparadark():
+    if request.method == "POST":
+        var = request.form.get("subject")
+        gr = grade(var)
+        return render_template("grade-dark.html", grade=gr)

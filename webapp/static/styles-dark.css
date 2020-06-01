@@ -1,6 +1,6 @@
 * {
   font-family: Century Gothic;
-  background-color: rgb(255, 255, 255);
+  background-color: black;
 }
 
 h3 {
@@ -16,12 +16,12 @@ h3 {
     height: 300px;
     width: 600px;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: white;
     padding-top: 5px;
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: white;
   }
 }
 @media (max-width: 699px) {
@@ -29,12 +29,12 @@ h3 {
     height: 300px;
     width: 600px;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: white;
     padding-top: 5px;
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: white;
   }
 }
 
@@ -43,12 +43,12 @@ h3 {
     height: 300px;
     width: 300px;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: white;
     padding-top: 5px;
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: white;
   }
 }
 
@@ -57,36 +57,35 @@ h3 {
     height: 300px;
     width: 300px;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: white;
     padding-top: 5px;
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: white;
   }
 }
 h2 {
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
 }
 
 button {
-  color: rgb(255, 255, 255);
-  border: 1px solid #0078d4;
-  background-color: #0078d4;
+  color: white;
+  border: 1px solid white;
   align-items: center;
   font-size: 20px;
   border-radius: 5px;
   transition: ease 0.3s;
 }
 button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #0078d4;
+  background-color: white;
+  color: black;
 }
 
 button:focus {
-  background-color: #0078d4;
-  color: #ffffff;
+  background-color: white;
+  color: black;
 }
 
 .wrap {
@@ -94,20 +93,20 @@ button:focus {
 }
 
 .head {
-  color: rgb(0, 0, 0);
+  color: white;
   padding-bottom: 10px;
   padding-top: 10px;
-  border-bottom: 1px solid rgb(0, 0, 0);
-  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
   text-align: center;
 }
 
 .dev {
-  color: rgb(0, 0, 0);
+  color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 1px solid rgb(0, 0, 0);
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   text-align: center;
 }
 
