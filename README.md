@@ -18,11 +18,12 @@ The first effort to grade texts for different reading ages came during this time
 <h3>Screenshots:</h3>
 
 > The website is responsive.
-<br>
 <h2>Mobile:</h2>
+
 ![Mobile](/screenshots/Phone.png)
-<br>
+
 <h2>Laptop:</h2>
+
 ![Laptop](/screenshots/Laptop.png)
 
 <h3>License:</h3>
