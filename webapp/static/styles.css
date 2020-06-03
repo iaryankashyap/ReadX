@@ -185,6 +185,7 @@ button:focus {
   border-top: 1px solid crimson;
   border-bottom: 1px solid crimson;
   text-align: center;
+  font-size: 14px;
 }
 
 .mode {
