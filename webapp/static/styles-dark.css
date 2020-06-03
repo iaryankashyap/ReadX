@@ -37,6 +37,14 @@ h3 {
     border-color: crimson;
     color: white;
   }
+  .head {
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
 }
 @media (max-width: 699px) {
   #sub {
@@ -62,6 +70,14 @@ h3 {
     border-radius: 5px;
     border-color: crimson;
     color: white;
+  }
+  .head {
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
   }
 }
 
@@ -90,6 +106,15 @@ h3 {
     border-color: crimson;
     color: white;
   }
+  .head {
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 564px) {
@@ -117,6 +142,15 @@ h3 {
     border-color: crimson;
     color: white;
   }
+  .head {
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 14px;
+  }
 }
 h2 {
   color: crimson;
@@ -143,15 +177,6 @@ button:focus {
 }
 
 .wrap {
-  text-align: center;
-}
-
-.head {
-  color: rgba(255, 255, 255, 0.5);
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
 }
 
