@@ -48,12 +48,12 @@ def grade(text):
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("homev3.html")
 
 
 @app.route("/home-dark")
 def homedark():
-    return render_template("home-dark.html")
+    return render_template("home-darkv3.html")
 
 
 @app.route("/para_details", methods=["GET", "POST"])
@@ -61,7 +61,7 @@ def detpara():
     if request.method == "POST":
         var = request.form.get("subject")
         gr = grade(var)
-        return render_template("grade.html", grade=gr)
+        return render_template("gradev3.html", grade=gr)
 
 
 @app.route("/para_details-dark", methods=["GET", "POST"])
@@ -69,10 +69,8 @@ def detparadark():
     if request.method == "POST":
         var = request.form.get("subject")
         gr = grade(var)
-        return render_template("grade-dark.html", grade=gr)
+        return render_template("grade-darkv3.html", grade=gr)
 
 
-'''
 if __name__ == "__main__":
     app.run(debug=True)
-'''
