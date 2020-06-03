@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReadX</title>
+    <link rel="stylesheet" href="../static/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h3>ReadX</h3>
+    <p class="head">Grade your Paragraph with the readability test.</p>
+    <br /><br />
+    <form action="/para_details" method="POST">
+      <div class="wrap">
+        <textarea
+          id="sub"
+          required
+          name="subject"
+          placeholder="Enter Your Paragraph..."
+        ></textarea>
+      </div>
+      <br />
+      <div class="wrap">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <div class="mode">
+      <a href="/home-dark"
+        ><button id="mode">
+          Dark Mode
+        </button></a
+      >
+    </div>
+    <p class="dev">
+      ReadX v2.0 Developed By
+      <a href="https://github.com/iaryankashyap">Aryan Kashyap</a> (c)
+      <a href="https://github.com/DevX-Community">DevX</a>
+    </p>
+  </body>
+</html>
