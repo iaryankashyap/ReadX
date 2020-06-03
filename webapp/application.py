@@ -70,3 +70,9 @@ def detparadark():
         var = request.form.get("subject")
         gr = grade(var)
         return render_template("grade-dark.html", grade=gr)
+
+
+'''
+if __name__ == "__main__":
+    app.run(debug=True)
+'''

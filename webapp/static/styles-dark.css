@@ -1,10 +1,12 @@
 * {
   font-family: "Raleway", sans-serif;
-  background-color: rgb(19, 17, 17);
+}
+textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.603) !important;
 }
 
 h3 {
-  color: rgba(220, 20, 60, 0.788);
+  color: rgba(255, 255, 255, 0.788);
   font-family: Century Gothic;
   text-align: center;
   font-size: 50px;
@@ -17,12 +19,13 @@ h3 {
     height: 300px;
     width: 600px;
     padding: 0;
+    background-color: rgba(255, 255, 255, 0.274);
     color: white;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 8px;
+    padding-left: 8px;
     font-size: 15px;
-    border-radius: 5px;
-    border-color: crimson;
+    border-radius: 10px;
+    border: none;
   }
 
   .inp {
@@ -41,8 +44,12 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 10px;
     padding-top: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0.219);
     text-align: center;
   }
 }
@@ -51,12 +58,13 @@ h3 {
     height: 300px;
     width: 600px;
     padding: 0;
+    background-color: rgba(255, 255, 255, 0.274);
     color: white;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 8px;
+    padding-left: 8px;
     font-size: 15px;
-    border-radius: 5px;
-    border-color: rgba(220, 20, 60, 0.616);
+    border-radius: 10px;
+    border: none;
   }
 
   .inp {
@@ -75,8 +83,13 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 10px;
     padding-top: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.219);
     text-align: center;
   }
 }
@@ -86,12 +99,13 @@ h3 {
     height: 300px;
     width: 300px;
     padding: 0;
+    background-color: rgba(255, 255, 255, 0.274);
     color: white;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 8px;
+    padding-left: 8px;
     font-size: 15px;
-    border-radius: 5px;
-    border-color: rgba(220, 20, 60, 0.616);
+    border-radius: 10px;
+    border: none;
   }
 
   .inp {
@@ -110,8 +124,12 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 10px;
     padding-top: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0.219);
     text-align: center;
     font-size: 14px;
   }
@@ -122,12 +140,13 @@ h3 {
     height: 300px;
     width: 300px;
     padding: 0;
+    background-color: rgba(255, 255, 255, 0.274);
     color: white;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 8px;
+    padding-left: 8px;
     font-size: 15px;
-    border-radius: 5px;
-    border-color: rgba(220, 20, 60, 0.616);
+    border-radius: 10px;
+    border: none;
   }
 
   .inp {
@@ -146,8 +165,12 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 10px;
     padding-top: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.219);
     text-align: center;
     font-size: 14px;
   }
@@ -159,21 +182,23 @@ h2 {
 
 button {
   font-family: Century Gothic;
-  color: rgba(220, 20, 60, 0.616);
-  border: 1px solid rgba(220, 20, 60, 0.616);
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.144);
   align-items: center;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
   transition: ease 0.3s;
 }
 button:hover {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   color: crimson;
 }
 
 button:focus {
-  background-color: black;
-  color: crimson;
+  background-color: crimson;
+  color: #ffffff;
 }
 
 .wrap {
@@ -187,7 +212,18 @@ button:focus {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+#last {
+  color: white;
+}
+
+.border {
+  margin: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-bottom: 3px rgba(255, 255, 255, 0.363) solid;
 }
 
 .mode {
@@ -201,4 +237,50 @@ button:focus {
 
 .name {
   text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(
+    -60deg,
+    rgb(3, 3, 3) 50%,
+    rgb(34, 40, 44) 50%
+  );
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
 }
