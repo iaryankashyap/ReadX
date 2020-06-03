@@ -4,7 +4,7 @@
 }
 
 h3 {
-  color: crimson;
+  color: rgba(220, 20, 60, 0.788);
   font-family: Century Gothic;
   text-align: center;
   font-size: 50px;
@@ -22,7 +22,20 @@ h3 {
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: white;
+    border-color: crimson;
+  }
+
+  .inp {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: crimson;
+    color: white;
   }
 }
 @media (max-width: 699px) {
@@ -35,7 +48,20 @@ h3 {
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: white;
+    border-color: crimson;
+  }
+
+  .inp {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: crimson;
+    color: white;
   }
 }
 
@@ -49,7 +75,20 @@ h3 {
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: white;
+    border-color: crimson;
+  }
+
+  .inp {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: crimson;
+    color: white;
   }
 }
 
@@ -63,31 +102,44 @@ h3 {
     padding-left: 5px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: white;
+    border-color: crimson;
+  }
+
+  .inp {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: crimson;
+    color: white;
   }
 }
 h2 {
-  color: white;
+  color: crimson;
   text-align: center;
 }
 
 button {
   font-family: Century Gothic;
-  color: white;
-  border: 1px solid white;
+  color: crimson;
+  border: 1px solid crimson;
   align-items: center;
   font-size: 20px;
   border-radius: 5px;
   transition: ease 0.3s;
 }
 button:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: crimson;
 }
 
 button:focus {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: crimson;
 }
 
 .wrap {
@@ -95,20 +147,20 @@ button:focus {
 }
 
 .head {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   padding-bottom: 10px;
   padding-top: 10px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
 }
 
 .dev {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
 }
 
@@ -118,5 +170,9 @@ button:focus {
 }
 
 .link {
-  color: aqua;
+  color: rgba(0, 255, 255, 0.5);
+}
+
+.name {
+  text-align: center;
 }
