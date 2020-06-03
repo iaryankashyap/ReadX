@@ -14,8 +14,8 @@ body {
   animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(
     -60deg,
-    rgb(152, 26, 235) 50%,
-    rgb(73, 18, 160) 50%
+    rgb(51, 12, 112) 50%,
+    rgb(113, 19, 177) 50%
   );
   bottom: 0;
   left: -50%;
