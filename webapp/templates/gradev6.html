@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReadX</title>
-    <link rel="stylesheet" href="../static/stylesv5.css" />
+    <link rel="stylesheet" href="../static/stylesv6.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
       rel="stylesheet"
@@ -17,34 +17,43 @@
     />
   </head>
   <body>
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
+    
     <h3>ReadX</h3>
     <p class="head">Grade your Paragraph with the readability test.</p>
     <br /><br />
-    <form action="/para_details" method="POST">
+
+    <h2>Grade: {{grade}}</h2>
+    <div class="grd">
       <div class="wrap">
-        <textarea
-          id="sub"
-          required
-          name="subject"
-          placeholder="Enter Your Paragraph..."
-        ></textarea>
+        <a href="/"><button>Back</button></a>
       </div>
-      <br />
-      <div class="wrap">
-        <button type="submit">Submit</button>
-      </div>
-    </form>
-    <div class="mode">
-      <a href="/home-dark"
-        ><button id="mode">
-          Dark Mode
-        </button></a
+    <br /><br /><br />
+    <div class="grd">
+      
+      <h3
+        style="
+          font-size: 30px;
+          margin: auto;
+          margin-left: 90px;
+          margin-right: 90px;
+          border-radius: 20px;
+        "
       >
+        Grading:
+      </h3>
+      <br />
+      <h2 style="color: aliceblue;">
+        if your grade is below 8 <br />
+        "Your paragraph is easier to read."
+      </h2>
+      <br />
+      <h2 style="color: aliceblue;">
+        if your grade is above 8 <br />
+        "Your paragraph is difficult to read."
+      </h2>
     </div>
     <div class="border"></div>
+    
     <div id="last" class="wrap">
       <h6 class="text-light small font-weight-bold">
         <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by Aryan
