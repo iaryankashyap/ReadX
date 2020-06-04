@@ -113,6 +113,7 @@ def condetdark():
         f.close()
     return render_template(findr)
 
-
+'''
 if __name__ == "__main__":
     app.run(debug=True)
+'''
