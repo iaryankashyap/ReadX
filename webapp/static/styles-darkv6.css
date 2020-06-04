@@ -244,43 +244,19 @@ html {
 }
 
 body {
-  margin: 0;
+  background: linear-gradient(-45deg, #413c3b, #000000, #12121a, #0d0e0d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(
-    -60deg,
-    rgb(3, 3, 3) 50%,
-    rgb(34, 40, 44) 50%
-  );
-  bottom: 0;
-  left: -50%;
-  opacity: 0.5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
-}
-
-.bg2 {
-  animation-direction: alternate-reverse;
-  animation-duration: 4s;
-}
-
-.bg3 {
-  animation-duration: 5s;
-}
-
-h1 {
-  font-family: monospace;
-}
-
-@keyframes slide {
+@keyframes gradient {
   0% {
-    transform: translateX(-25%);
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
   100% {
-    transform: translateX(25%);
+    background-position: 0% 50%;
   }
 }
