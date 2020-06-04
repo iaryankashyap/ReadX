@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReadX</title>
-    <link rel="stylesheet" href="../static/stylesv6.css" />
+    <link rel="stylesheet" href="../static/styles-conv7.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <h3>ReadX</h3>
-    <p class="head">CONTACT US</p>
-    <br />
-    <form action="/para_details" method="POST">
+    <p class="head">Contact Us</p>
+    <br /><br /><br />
+    <form action="/contact_details" method="POST">
       <div class="name">
         <input
           class="inp"
+          name="name"
           type="text"
-          placeholder="Enter Your Name..."
+          placeholder="Enter Your Email..."
           required
         />
       </div>
@@ -27,7 +34,7 @@
         <textarea
           id="sub"
           required
-          name="subject"
+          name="message"
           placeholder="Enter Your Message..."
         ></textarea>
       </div>
@@ -36,17 +43,25 @@
         <button type="submit">Send</button>
       </div>
     </form>
+
     <div class="mode">
-      <a href="/home-dark"
+      <a href="/"
+        ><button id="mode">
+          Back
+        </button></a
+      >
+      <a href="/contact-dark"
         ><button id="mode">
           Dark Mode
         </button></a
       >
     </div>
-    <p class="dev">
-      ReadX v2.0 Developed By
-      <a href="https://github.com/iaryankashyap">Aryan Kashyap</a> (c)
-      <a href="https://github.com/DevX-Community">DevX</a>
-    </p>
+    <div class="border"></div>
+    <div id="last" class="wrap">
+      <h6 class="text-light small font-weight-bold">
+        <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by Aryan
+        Kashyap
+      </h6>
+    </div>
   </body>
 </html>

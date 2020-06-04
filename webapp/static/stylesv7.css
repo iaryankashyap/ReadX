@@ -23,24 +23,44 @@ body {
     background-position: 0% 50%;
   }
 }
-
 h3 {
   color: rgb(255, 255, 255);
-  text-align: center;
   font-size: 50px;
   padding: 5px;
+  margin: auto;
   margin-bottom: 0;
   margin-top: 15px;
   text-shadow: rgba(0, 0, 0, 0.075) 0.1em 0.1em 0.2em;
 }
-
+.down2 {
+  display: none;
+}
 .border {
   margin: 15px;
   margin-right: 100px;
   margin-left: 100px;
   border-bottom: 3px rgba(255, 255, 255, 0.363) solid;
 }
+button {
+  font-family: Century Gothic;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.144);
+  align-items: center;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  transition: ease 0.3s;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.432);
+  color: rgb(255, 255, 255);
+}
 
+button:focus {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
 #last {
   color: white;
 }
@@ -58,7 +78,9 @@ h3 {
     border: none;
     border-radius: 10px;
   }
-
+  .down2 {
+    display: none;
+  }
   .inp {
     width: 600px;
     height: 30px;
@@ -82,6 +104,10 @@ h3 {
     margin: auto;
     margin-left: 30px;
     margin-right: 30px;
+  }
+  .down {
+    float: right;
+    margin: 20px;
   }
 }
 @media (max-width: 699px) {
@@ -97,7 +123,9 @@ h3 {
     border: none;
     border-radius: 10px;
   }
-
+  .down2 {
+    display: none;
+  }
   .inp {
     width: 600px;
     height: 30px;
@@ -119,6 +147,10 @@ h3 {
     margin: auto;
     margin-left: 30px;
     margin-right: 30px;
+  }
+  .down {
+    float: right;
+    margin: 20px;
   }
 }
 
@@ -160,6 +192,10 @@ h3 {
     margin-left: 30px;
     margin-right: 30px;
   }
+  .down {
+    float: right;
+    margin: 20px;
+  }
 }
 
 @media (max-width: 564px) {
@@ -199,31 +235,27 @@ h3 {
     margin-left: 30px;
     margin-right: 30px;
   }
+  h3 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .down {
+    float: right;
+    margin: 20px;
+    display: none;
+  }
+
+  .down2 {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
 }
 h2 {
   color: rgb(0, 0, 0);
   text-align: center;
-}
-
-button {
-  font-family: Century Gothic;
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.144);
-  align-items: center;
-  font-size: 15px;
-  border: none;
-  padding: 5px;
-  border-radius: 2px;
-  transition: ease 0.3s;
-}
-button:hover {
-  background-color: rgb(255, 255, 255);
-  color: crimson;
-}
-
-button:focus {
-  background-color: crimson;
-  color: #ffffff;
 }
 
 .wrap {

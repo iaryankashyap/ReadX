@@ -3,6 +3,14 @@ from flask import Flask, flash, request, redirect, render_template
 app = Flask(__name__)
 
 gr = 0
+home_main = "homev7.html"
+home_dark = "home-darkv7.html"
+grade_main = "gradev7.html"
+grade_main_dark = "grade-darkv7.html"
+contact_us = "contactv7.html"
+contact_us_dark = "contact-darkv7.html"
+fin = "finv7.html"
+findr = "findarkv7.html"
 
 
 def grade(text):
@@ -48,12 +56,12 @@ def grade(text):
 
 @app.route("/")
 def home():
-    return render_template("homev6.html")
+    return render_template(home_main)
 
 
 @app.route("/home-dark")
 def homedark():
-    return render_template("home-darkv6.html")
+    return render_template(home_dark)
 
 
 @app.route("/para_details", methods=["GET", "POST"])
@@ -61,7 +69,7 @@ def detpara():
     if request.method == "POST":
         var = request.form.get("subject")
         gr = grade(var)
-        return render_template("gradev6.html", grade=gr)
+        return render_template(grade_main, grade=gr)
 
 
 @app.route("/para_details-dark", methods=["GET", "POST"])
@@ -69,11 +77,42 @@ def detparadark():
     if request.method == "POST":
         var = request.form.get("subject")
         gr = grade(var)
-        return render_template("grade-darkv6.html", grade=gr)
+        return render_template(grade_main_dark, grade=gr)
 
 
-'''
+@app.route("/contact")
+def cont_us():
+    return render_template(contact_us)
+
+
+@app.route("/contact-dark")
+def cont_us_dark():
+    return render_template(contact_us_dark)
+
+
+@app.route("/contact_details", methods=["GET", "POST"])
+def condet():
+    if request.method == "POST":
+        mes = request.form.get("message")
+        nm = request.form.get("name")
+        f = open("messages.txt", "a")
+        content = "Name: "+nm+"  Message:"+mes+"\n"
+        f.write(content)
+        f.close()
+    return render_template(fin)
+
+
+@app.route("/contact_details_dark", methods=["GET", "POST"])
+def condetdark():
+    if request.method == "POST":
+        mes = request.form.get("message")
+        nm = request.form.get("name")
+        f = open("messages.txt", "a")
+        content = "Name: "+nm+"  Message:"+mes+"\n"
+        f.write(content)
+        f.close()
+    return render_template(findr)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
-
-'''
