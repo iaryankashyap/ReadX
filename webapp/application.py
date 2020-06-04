@@ -72,7 +72,8 @@ def detparadark():
         return render_template("grade-darkv6.html", grade=gr)
 
 
-
+'''
 if __name__ == "__main__":
     app.run(debug=True)
 
+'''
